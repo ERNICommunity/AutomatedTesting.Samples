@@ -37,7 +37,7 @@ namespace AutomatedTests.Appium.Calculator
             ProcessStartInfo startInfo = new ProcessStartInfo();
             startInfo.WindowStyle = ProcessWindowStyle.Hidden;
             startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = @"/C C:\Users\jas\Desktop\Appium\node.exe C:\Users\jas\Desktop\Appium\node_modules\appium\bin\appium.js --address 127.0.0.1 --chromedriver-port 9516 --bootstrap-port 4735 --selendroid-port 8082 --no-reset --local-timezone --device-name Nexus_5_API_21_x86 --avd @Nexus_5_API_21_x86";
+            startInfo.Arguments = @"/C C:\Users\jas\Desktop\Appium\node.exe C:\Users\jas\Desktop\Appium\node_modules\appium\bin\appium.js --address 127.0.0.1 --chromedriver-port 9516 --bootstrap-port 4736 --selendroid-port 8082 --no-reset --local-timezone --device-name Nexus_5_API_21_x86 --avd @Nexus_5_API_21_x86";
             _process.StartInfo = startInfo;
             _process.Start();
         }

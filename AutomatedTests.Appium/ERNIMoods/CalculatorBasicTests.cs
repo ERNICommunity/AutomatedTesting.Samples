@@ -9,7 +9,7 @@ using OpenQA.Selenium.Remote;
 namespace AutomatedTests.Appium.Calculator
 {
     [TestClass]
-    public class ERNIMoodTests
+    public class ErniMoodTests
     {
         public AndroidDriver driver;
         private Process _process;
@@ -54,10 +54,9 @@ namespace AutomatedTests.Appium.Calculator
         [TestMethod]
         public void TwoPlusFourEqualsSix()
         {
+            var username = driver.FindElement(By.Name("Username"));
             Thread.Sleep(5000);
 
         }
-
-
     }
 }
