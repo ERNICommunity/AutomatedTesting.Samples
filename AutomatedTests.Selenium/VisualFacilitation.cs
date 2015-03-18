@@ -52,6 +52,7 @@ namespace AutomatedTests.Selenium
            _driver.FindElementByPartialLinkText("BASICS").Click();
             Thread.Sleep(3000);
             Assert.True(_driver.PageSource.Contains("brick wall"));
+            
         }
 
 
