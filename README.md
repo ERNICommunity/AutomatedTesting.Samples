@@ -1,4 +1,7 @@
 # AutomatedTesting.Samples
+
+:warning: **REPOSITORY NOT ACTIVE SINCE 2015 Dependabot alerts disabled**
+
 Collection of Automated Tests
 
 
